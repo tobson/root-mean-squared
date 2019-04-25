@@ -7,11 +7,12 @@ def rms(double[:, :] a, double[:, :] b):
 
     cdef int i, j
 
-    cdef double diff
-    cdef double rms2 = 0.0
+    cdef double diff, rms2
 
     m = a.shape[0]
     n = a.shape[1]
+
+    rms2 = 0.0
 
     for i in range(m):
         for j in range(n):
