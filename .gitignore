@@ -1,0 +1,7 @@
+*.swp
+
+/build
+/venv
+/rms.c
+/rms.*.so
+/rms.html
